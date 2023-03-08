@@ -23,6 +23,6 @@ spec:
         server: '{{url}}'
         namespace: '{{cluster}}'
       syncPolicy:
-    automated:
-      prune: true
-      selfHeal: false
+        automated:
+          prune: true
+          selfHeal: false
